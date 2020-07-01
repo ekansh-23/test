@@ -1,19 +1,15 @@
 image:
   name: r4e-address
   pullPolicy: IfNotPresent
-
-name: "r4e-address"
-
+name: r4e-address
 service:
   type: ClusterIP
-
 resources:
   limits:
     cpu: 2
-    memory: 2Gi
+    memory: 1Gi
   requests:
     cpu: 100m
     memory: 2Gi
-
 secrets:
   enabled: true
