@@ -1,4 +1,4 @@
-image:
+# Default values for r4e./n# This is a YAML-formatted file./nimage:
   name: r4e-acommon
   pullPolicy: IfNotPresent
 name: r4e-acommon
