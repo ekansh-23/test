@@ -4,10 +4,10 @@ image:
 name: r4e-acommon
 resources:
   limits:
-    cpu: 2
-    memory: 1Gi
+    cpu: 2.0
+    memory: 4.0
   requests:
     cpu: 100m
-    memory: 4Gi
+    memory: 4.0
 secrets:
   enabled: true
