@@ -11,3 +11,6 @@ resources:
     memory: 4Gi
 secrets:
   enabled: true
+autoscaler:
+  minReplica: 2
+  maxReplica: 3
