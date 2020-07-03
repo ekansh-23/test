@@ -4,11 +4,13 @@ image:
 name: r4e-acommon
 resources:
   limits:
-    cpu: 1
-    memory: 1Gi
+    cpu: 2
+    memory: 4Gi
   requests:
     cpu: 100m
-    memory: 1Gi
+    memory: 4Gi
 secrets:
   enabled: true
-
+autoscaler:
+  minReplicas: 2
+  maxReplicas: 3
